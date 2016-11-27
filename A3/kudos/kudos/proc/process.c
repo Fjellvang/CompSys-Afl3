@@ -160,15 +160,14 @@ void process_write(int fd, void *buf, int nbytes){
     device_t *dev;
     gcd_t *gcd;
    
-    dev = device_get(TYPECODE_TTY, 0);
-    KERNEL_ASSERT(dev != NULL);
+    dev = device_get(TYPECODE_TTY, 0); KERNEL_ASSERT(dev != NULL);
 
     gcd = (gcd_t *)dev->generic_device;
     KERNEL_ASSERT(gcd != NULL);
     gcd->write(gcd, buf, nbytes);
   }else {
+    // file needs reading
     process_table[0].fd->fdt_write(process_table[0].fd, fd, buf, nbytes);
-
   }
 }
 
@@ -193,6 +192,7 @@ void process_read(int fd, void *buf, int nbytes){
     int len = gcd->read(gcd, buf, nbytes); 
     KERNEL_ASSERT(len>= 0);
   } else {
+    // fil skal læses
     process_table[0].fd->fdt_read(process_table[0].fd, fd, buf, nbytes);
   }
 }

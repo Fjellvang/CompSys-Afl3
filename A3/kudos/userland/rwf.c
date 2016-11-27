@@ -7,6 +7,7 @@ size_t buf = 64;
 int main(void) {
   int fd;
 
+  //Error handling
   if(fd = syscall_open(~/Documents/test.txt) < 0){
     char buf1[] = "Couldnt open file. Did you specify it corretly?";
     syscall_write(1, buf1, strlen(buf1));

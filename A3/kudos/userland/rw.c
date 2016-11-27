@@ -8,8 +8,7 @@
 size_t buf = 64;
 
 int main(void) {
- //syscall_write(1,(void *)malloc(buf),63);
- char buf3[] = "skriv dit navn\n";
+ char buf3[] = "Du kan nu skrive til konsollen:\n";
  syscall_write(1, buf3, strlen(buf3));
  char buf5[20];
  buf5[19] = '\0';
@@ -17,9 +16,4 @@ int main(void) {
  syscall_write(1, buf5, 20);
  printf("\n");
  return 0;
-
- //printf("Hello World\n");
- //syscall_read(0,(void *)malloc(buf),strlen(buf)); 
- //printf("you said %s\n", buf);
- //syscall_halt();
 }

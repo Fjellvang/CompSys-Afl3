@@ -119,10 +119,10 @@ void init_user_context(uint32_t i){
 
   pcb_t *pcb = &process_table[i];
 
-  memoryset(user_context, 0, sizeof(user_context));
+  memoryset(pcb->user_context, 0, sizeof(pcb->user_context));
 
-  _context_set_ip(user_context, entry_point);
-  _context_set_sp(user_context, stack_top);
+  _context_set_ip(pcb->user_context, pcb->entry_point);
+  _context_set_sp(pcb->user_context, pcb->stack_top);
 
   thread_goto_userland(user_context);
 }
