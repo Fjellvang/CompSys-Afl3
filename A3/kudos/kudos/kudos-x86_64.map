@@ -1,0 +1,1288 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+ide_devices         0xa0              drivers/x86_64/disk.x86_64.o
+kmalloc_addr        0x8               vm/x86_64/mm_virt.x86_64.o
+used_blocks         0x8               vm/x86_64/mm_phys.x86_64.o
+polltty_gcd         0x8               drivers/x86_64/polltty.x86_64.o
+_mem_bitmap         0x8               vm/x86_64/mm_phys.x86_64.o
+total_blocks        0x8               vm/x86_64/mm_phys.x86_64.o
+pt_pool             0x400000          vm/x86_64/mm_virt.x86_64.o
+fdts                0x40800           proc/fdt.x86_64.o
+highest_page        0x8               vm/x86_64/mm_phys.x86_64.o
+tss_descriptors     0x1c0             kernel/x86_64/tss.x86_64.o
+tty_dev             0x8               drivers/x86_64/polltty.x86_64.o
+thread_table        0x800             kernel/thread.x86_64.o
+stalloced_total     0x8               kernel/stalloc.x86_64.o
+memory_size         0x8               vm/x86_64/mm_phys.x86_64.o
+fdt_lock            0x4               proc/fdt.x86_64.o
+ide_gbd             0xa0              drivers/x86_64/disk.x86_64.o
+pt_bitmap           0x80              vm/x86_64/mm_virt.x86_64.o
+bitmap_size         0x8               vm/x86_64/mm_phys.x86_64.o
+physmem_lock        0x8               vm/x86_64/mm_phys.x86_64.o
+scheduler_current_thread
+                    0x10              kernel/scheduler.x86_64.o
+kb_code             0x4               drivers/x86_64/keyboard.x86_64.o
+ide_channels        0x48              drivers/x86_64/disk.x86_64.o
+ide_dev             0x80              drivers/x86_64/disk.x86_64.o
+thread_table_klock  0x4               kernel/thread.x86_64.o
+process_table       0x600             proc/process.x86_64.o
+thread_stack_areas  0x20000           kernel/thread.x86_64.o
+polltty_iobase      0x8               drivers/x86_64/polltty.x86_64.o
+
+Discarded input sections
+
+ .comment       0x0000000000000000       0x1b init/x86_64/main.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 init/x86_64/main.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/x86_64/_spinlock.x86_64.o
+ .eh_frame      0x0000000000000000       0x58 kernel/x86_64/_spinlock.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/x86_64/cswitch.x86_64.o
+ .eh_frame      0x0000000000000000       0xd8 kernel/x86_64/cswitch.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/x86_64/interrupt.x86_64.o
+ .eh_frame      0x0000000000000000      0x118 kernel/x86_64/interrupt.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/x86_64/stubs.x86_64.o
+ .eh_frame      0x0000000000000000       0x58 kernel/x86_64/stubs.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/x86_64/gdt.x86_64.o
+ .eh_frame      0x0000000000000000       0x78 kernel/x86_64/gdt.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/x86_64/idt.x86_64.o
+ .eh_frame      0x0000000000000000       0x58 kernel/x86_64/idt.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/x86_64/exception.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 kernel/x86_64/exception.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/x86_64/pic.x86_64.o
+ .eh_frame      0x0000000000000000       0xf8 kernel/x86_64/pic.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/x86_64/tss.x86_64.o
+ .eh_frame      0x0000000000000000       0xb8 kernel/x86_64/tss.x86_64.o
+ .comment       0x0000000000000000       0x1b vm/x86_64/mm_phys.x86_64.o
+ .eh_frame      0x0000000000000000      0x178 vm/x86_64/mm_phys.x86_64.o
+ .comment       0x0000000000000000       0x1b vm/x86_64/mm_virt.x86_64.o
+ .eh_frame      0x0000000000000000      0x2d8 vm/x86_64/mm_virt.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/x86_64/asm.x86_64.o
+ .eh_frame      0x0000000000000000       0xb8 lib/x86_64/asm.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/x86_64/srand.x86_64.o
+ .eh_frame      0x0000000000000000       0x58 lib/x86_64/srand.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/x86_64/polltty.x86_64.o
+ .eh_frame      0x0000000000000000       0x78 drivers/x86_64/polltty.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/x86_64/tty.x86_64.o
+ .eh_frame      0x0000000000000000       0x78 drivers/x86_64/tty.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/x86_64/device.x86_64.o
+ .eh_frame      0x0000000000000000       0x78 drivers/x86_64/device.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/x86_64/pit.x86_64.o
+ .eh_frame      0x0000000000000000       0xd8 drivers/x86_64/pit.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/x86_64/keyboard.x86_64.o
+ .eh_frame      0x0000000000000000      0x158 drivers/x86_64/keyboard.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/x86_64/disk.x86_64.o
+ .eh_frame      0x0000000000000000      0x158 drivers/x86_64/disk.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/x86_64/metadev.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 drivers/x86_64/metadev.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/x86_64/pci.x86_64.o
+ .eh_frame      0x0000000000000000       0xa0 drivers/x86_64/pci.x86_64.o
+ .comment       0x0000000000000000       0x1b proc/x86_64/_syscall.x86_64.o
+ .eh_frame      0x0000000000000000       0x58 proc/x86_64/_syscall.x86_64.o
+ .comment       0x0000000000000000       0x1b proc/x86_64/_proc.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 proc/x86_64/_proc.x86_64.o
+ .comment       0x0000000000000000       0x1b init/common.x86_64.o
+ .eh_frame      0x0000000000000000       0x58 init/common.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/panic.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 kernel/panic.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/thread.x86_64.o
+ .eh_frame      0x0000000000000000      0x138 kernel/thread.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/scheduler.x86_64.o
+ .eh_frame      0x0000000000000000       0xb8 kernel/scheduler.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/sleepq.x86_64.o
+ .eh_frame      0x0000000000000000       0x98 kernel/sleepq.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/semaphore.x86_64.o
+ .eh_frame      0x0000000000000000       0xb8 kernel/semaphore.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/halt.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 kernel/halt.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/stalloc.x86_64.o
+ .eh_frame      0x0000000000000000       0x78 kernel/stalloc.x86_64.o
+ .comment       0x0000000000000000       0x1b kernel/klock.x86_64.o
+ .eh_frame      0x0000000000000000       0x78 kernel/klock.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/libc.x86_64.o
+ .eh_frame      0x0000000000000000      0x1f8 lib/libc.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/xprintf.x86_64.o
+ .eh_frame      0x0000000000000000      0x118 lib/xprintf.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/bitmap.x86_64.o
+ .eh_frame      0x0000000000000000       0xb8 lib/bitmap.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/debug.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 lib/debug.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/bootargs.x86_64.o
+ .eh_frame      0x0000000000000000       0x78 drivers/bootargs.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/disksched.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 drivers/disksched.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/timer.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 drivers/timer.x86_64.o
+ .comment       0x0000000000000000       0x1b drivers/modules.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 drivers/modules.x86_64.o
+ .comment       0x0000000000000000       0x1b proc/elf.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 proc/elf.x86_64.o
+ .comment       0x0000000000000000       0x1b proc/syscall.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 proc/syscall.x86_64.o
+ .comment       0x0000000000000000       0x1b proc/process.x86_64.o
+ .eh_frame      0x0000000000000000       0x98 proc/process.x86_64.o
+ .comment       0x0000000000000000       0x1b proc/fdt.x86_64.o
+ .eh_frame      0x0000000000000000       0xb8 proc/fdt.x86_64.o
+ .comment       0x0000000000000000       0x1b fs/vfs.x86_64.o
+ .eh_frame      0x0000000000000000      0x2b8 fs/vfs.x86_64.o
+ .comment       0x0000000000000000       0x1b fs/tfs.x86_64.o
+ .eh_frame      0x0000000000000000      0x198 fs/tfs.x86_64.o
+ .comment       0x0000000000000000       0x1b fs/filesystems.x86_64.o
+ .eh_frame      0x0000000000000000       0x78 fs/filesystems.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/gcc/divdi3.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 lib/gcc/divdi3.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/gcc/qdivrem.x86_64.o
+ .eh_frame      0x0000000000000000       0x58 lib/gcc/qdivrem.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/gcc/udivdi3.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 lib/gcc/udivdi3.x86_64.o
+ .comment       0x0000000000000000       0x1b lib/gcc/umoddi3.x86_64.o
+ .eh_frame      0x0000000000000000       0x38 lib/gcc/umoddi3.x86_64.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000100000                phys = 0x100000
+
+.text           0x0000000000100000    0x15000
+                0x0000000000100000                code = .
+ *(.boot*)
+ .boot          0x0000000000100000       0x20 init/x86_64/_boot.x86_64.o
+ *(.text*)
+ .text          0x0000000000100020     0x41e0 init/x86_64/_boot.x86_64.o
+                0x000000000010007a                _start
+ .text          0x0000000000104200      0x233 kernel/x86_64/_irq.x86_64.o
+                0x0000000000104200                isr_default_handler
+                0x0000000000104202                _interrupt_yield
+                0x0000000000104205                _idle_thread_wait_loop
+                0x0000000000104208                _timer_set_ticks
+                0x0000000000104209                __enable_irq
+                0x000000000010420b                __disable_irq
+                0x000000000010420d                __getflags
+                0x0000000000104210                yield_irq_handler
+                0x00000000001042d4                IsrCommon
+                0x000000000010438d                isr_handler0
+                0x0000000000104396                isr_handler1
+                0x000000000010439f                isr_handler2
+                0x00000000001043a8                isr_handler3
+                0x00000000001043b1                isr_handler4
+                0x00000000001043ba                isr_handler5
+                0x00000000001043c3                isr_handler6
+                0x00000000001043cc                isr_handler7
+                0x00000000001043d5                isr_handler8
+                0x00000000001043dc                isr_handler9
+                0x00000000001043e5                isr_handler10
+                0x00000000001043ec                isr_handler11
+                0x00000000001043f3                isr_handler12
+                0x00000000001043fa                isr_handler13
+                0x0000000000104401                isr_handler14
+                0x0000000000104408                isr_handler15
+                0x0000000000104411                isr_handler16
+                0x000000000010441a                isr_handler17
+                0x0000000000104421                isr_handler18
+                0x000000000010442a                isr_handler19
+ .text          0x0000000000104433       0x16 kernel/x86_64/spinlock.x86_64.o
+                0x0000000000104433                spinlock_acquire
+ .text          0x0000000000104449       0x20 lib/x86_64/_asm.x86_64.o
+                0x0000000000104449                _inb
+                0x0000000000104456                _outb
+                0x0000000000104468                __stack_chk_fail
+ .text          0x0000000000104469       0xcf drivers/x86_64/_timer.x86_64.o
+                0x0000000000104469                pit_irq_handler
+ .text          0x0000000000104538       0xc1 drivers/x86_64/_kb.x86_64.o
+                0x0000000000104538                _keyboard_wait
+                0x000000000010453b                keyboard_irq_handler
+ .text          0x00000000001045f9      0x172 drivers/x86_64/_disk.x86_64.o
+                0x00000000001045f9                ide_irq_handler0
+                0x00000000001046b2                ide_irq_handler1
+ .text          0x000000000010476b       0xc0 proc/x86_64/_sys.x86_64.o
+                0x000000000010476b                syscall_irq_handler
+ .text          0x000000000010482b      0x443 init/x86_64/main.x86_64.o
+                0x000000000010482b                init
+ .text          0x0000000000104c6e       0x32 kernel/x86_64/_spinlock.x86_64.o
+                0x0000000000104c6e                spinlock_reset
+                0x0000000000104c87                spinlock_release
+ .text          0x0000000000104ca0      0x5ff kernel/x86_64/cswitch.x86_64.o
+                0x0000000000104ca0                _context_init
+                0x0000000000104ed5                _context_enter_userland
+                0x0000000000105101                _context_set_ip
+                0x0000000000105120                _context_enable_ints
+                0x0000000000105189                _context_set_sp
+                0x00000000001051a7                task_switch
+ .text          0x000000000010529f      0x4c3 kernel/x86_64/interrupt.x86_64.o
+                0x000000000010529f                _interrupt_disable
+                0x00000000001052c7                _interrupt_enable
+                0x00000000001052ef                _interrupt_set_state
+                0x000000000010531c                _interrupt_get_state
+                0x000000000010534d                _interrupt_is_disabled
+                0x0000000000105367                interrupt_init
+                0x0000000000105417                interrupt_register
+                0x0000000000105450                interrupt_handle
+ .text          0x0000000000105762       0x4e kernel/x86_64/stubs.x86_64.o
+                0x0000000000105762                _interrupt_getcpu
+                0x000000000010576d                shutdown
+ .text          0x00000000001057b0      0x395 kernel/x86_64/gdt.x86_64.o
+                0x00000000001057b0                gdt_init
+                0x00000000001058db                gdt_install_descriptor
+                0x0000000000105a48                gdt_install_tss
+ .text          0x0000000000105b45      0x19d kernel/x86_64/idt.x86_64.o
+                0x0000000000105b45                idt_init
+                0x0000000000105bc3                idt_install_gate
+ .text          0x0000000000105ce2      0x2eb kernel/x86_64/exception.x86_64.o
+                0x0000000000105ce2                exception_init
+ .text          0x0000000000105fcd      0x302 kernel/x86_64/pic.x86_64.o
+                0x0000000000105fcd                pic_sendcommand
+                0x0000000000106018                pic_senddata
+                0x0000000000106063                pic_getdata
+                0x00000000001060a7                pic_init
+                0x00000000001061bb                pic_maskinterrupt
+                0x0000000000106223                pic_unmaskinterrupt
+                0x000000000010628d                pic_eoi
+ .text          0x00000000001062cf      0x1bf kernel/x86_64/tss.x86_64.o
+                0x00000000001062cf                tss_flush
+                0x00000000001062e7                tss_init
+                0x000000000010630e                tss_install
+                0x0000000000106418                tss_setstack
+                0x0000000000106453                tss_setuserstack
+ .text          0x000000000010648e      0xadd vm/x86_64/mm_phys.x86_64.o
+                0x000000000010648e                memmap_setbit
+                0x0000000000106508                memmap_unsetbit
+                0x0000000000106584                memmap_testbit
+                0x00000000001065df                physmem_freeregion
+                0x0000000000106699                physmem_getframe
+                0x000000000010675a                physmem_getframes
+                0x00000000001068b6                physmem_init
+                0x0000000000106b32                physmem_allocblock
+                0x0000000000106c7e                physmem_freeblock
+                0x0000000000106d2a                physmem_allocblocks
+                0x0000000000106e9b                physmem_freeblocks
+ .text          0x0000000000106f6b      0x97b vm/x86_64/mm_virt.x86_64.o
+                0x0000000000106f6b                ptmap_setbit
+                0x0000000000106fd7                ptmap_unsetbit
+                0x0000000000107045                ptmap_testbit
+                0x000000000010709a                vmm_cleartable
+                0x00000000001070cd                vmm_setattribute
+                0x00000000001070f5                vmm_setframe
+                0x0000000000107122                vmm_get_kernel_pml4
+                0x0000000000107135                vmm_new_pagetable
+                0x00000000001071d4                vmm_install_ptable
+                0x000000000010720b                vmm_reloadcr3
+                0x0000000000107218                vmm_setcr3
+                0x000000000010722e                vmm_invalidatepage
+                0x0000000000107244                vmm_getptable
+                0x0000000000107294                vmm_getpdir
+                0x00000000001072e4                vmm_getpdp
+                0x0000000000107334                vm_init
+                0x0000000000107477                kmalloc
+                0x00000000001075af                vm_map
+                0x00000000001077d8                vm_unmap
+                0x00000000001077eb                vm_create_pagetable
+                0x0000000000107836                vm_destroy_pagetable
+                0x00000000001078db                _tlb_get_maxindex
+ .text          0x00000000001078e6       0xd8 lib/x86_64/asm.x86_64.o
+                0x00000000001078e6                _outl
+                0x0000000000107902                _inw
+                0x0000000000107928                _inl
+                0x000000000010794c                _insw
+                0x0000000000107985                _outsw
+ .text          0x00000000001079be       0x61 lib/x86_64/srand.x86_64.o
+                0x00000000001079be                _set_rand_seed
+                0x00000000001079db                _get_rand
+ .text          0x0000000000107a1f       0xbd drivers/x86_64/polltty.x86_64.o
+                0x0000000000107a1f                polltty_init
+                0x0000000000107a82                polltty_getchar
+                0x0000000000107a9c                polltty_putchar
+ .text          0x0000000000107adc      0x511 drivers/x86_64/tty.x86_64.o
+                0x0000000000107adc                tty_init
+                0x0000000000107c63                tty_write
+                0x0000000000107f63                tty_read
+ .text          0x0000000000107fed      0x150 drivers/x86_64/device.x86_64.o
+                0x0000000000107fed                device_init
+                0x0000000000108067                device_get
+                0x00000000001080d6                device_register
+ .text          0x000000000010813d      0x1d9 drivers/x86_64/pit.x86_64.o
+                0x000000000010813d                pit_send_data
+                0x000000000010818c                pit_send_command
+                0x00000000001081b3                pit_start_counter
+                0x0000000000108246                pit_init
+                0x0000000000108288                get_clock
+                0x000000000010829a                pit_sleepms
+ .text          0x0000000000108316      0x4fe drivers/x86_64/keyboard.x86_64.o
+                0x0000000000108316                keyboard_getstatus
+                0x000000000010832d                keyboard_test
+                0x000000000010836b                keyboard_sendencoder
+                0x00000000001083f4                keyboard_readdata
+                0x0000000000108434                keyboard_updateLED
+                0x00000000001084d2                keyboard_key_int
+                0x00000000001086a6                keyboard_discardkey
+                0x00000000001086bd                keyboard_init
+                0x00000000001087be                keyboard_getlastkey
+                0x00000000001087d0                keyboard_getkey
+ .text          0x0000000000108814     0x1731 drivers/x86_64/disk.x86_64.o
+                0x0000000000108814                ide_write
+                0x0000000000108a0b                ide_read
+                0x0000000000108bf9                ide_delay
+                0x0000000000108c65                disk_init
+                0x0000000000109796                ide_get_sectorsize
+                0x00000000001097f3                ide_get_sectorcount
+                0x0000000000109843                ide_wait
+                0x000000000010992d                ide_pio_readwrite
+                0x0000000000109d41                ide_read_block
+                0x0000000000109e43                ide_write_block
+ .text          0x0000000000109f45       0x12 drivers/x86_64/metadev.x86_64.o
+                0x0000000000109f45                rtc_get_msec
+ .text          0x0000000000109f57      0x456 drivers/x86_64/pci.x86_64.o
+                0x0000000000109f57                pci_read_dword
+                0x0000000000109fc8                get_pci_config
+                0x000000000010a1f9                pci_find_module
+                0x000000000010a26d                pci_init
+ .text          0x000000000010a3ad       0xaf proc/x86_64/_syscall.x86_64.o
+                0x000000000010a3ad                syscall_init
+                0x000000000010a3d9                syscall_handle
+ .text          0x000000000010a45c       0x78 proc/x86_64/_proc.x86_64.o
+                0x000000000010a45c                process_set_pagetable
+ .text          0x000000000010a4d4      0x34c init/common.x86_64.o
+                0x000000000010a4d4                init_startup_fallback
+                0x000000000010a704                init_startup_thread
+ .text          0x000000000010a820       0x71 kernel/panic.x86_64.o
+                0x000000000010a820                _kernel_panic
+ .text          0x000000000010a891      0x75e kernel/thread.x86_64.o
+                0x000000000010a891                thread_table_init
+                0x000000000010aa8f                thread_create
+                0x000000000010ad8e                thread_run
+                0x000000000010adad                thread_switch
+                0x000000000010ade4                thread_get_current_thread
+                0x000000000010ae32                thread_get_thread_entry
+                0x000000000010ae58                thread_get_current_thread_entry
+                0x000000000010aeb4                thread_goto_userland
+                0x000000000010aefb                thread_finish
+ .text          0x000000000010afef      0x40c kernel/scheduler.x86_64.o
+                0x000000000010afef                scheduler_init
+                0x000000000010b024                scheduler_add_to_ready_list
+                0x000000000010b236                scheduler_add_ready
+                0x000000000010b2aa                scheduler_schedule
+ .text          0x000000000010b3fb      0x6b0 kernel/sleepq.x86_64.o
+                0x000000000010b3fb                sleepq_init
+                0x000000000010b446                sleepq_add
+                0x000000000010b5eb                sleepq_wake
+                0x000000000010b828                sleepq_wake_all
+ .text          0x000000000010baab      0x365 kernel/semaphore.x86_64.o
+                0x000000000010baab                semaphore_init
+                0x000000000010bb09                semaphore_create
+                0x000000000010bccd                semaphore_destroy
+                0x000000000010bce7                semaphore_P
+                0x000000000010bd8c                semaphore_V
+ .text          0x000000000010be10       0x5a kernel/halt.x86_64.o
+                0x000000000010be10                halt_kernel
+ .text          0x000000000010be6a      0x1f8 kernel/stalloc.x86_64.o
+                0x000000000010be6a                stalloc_disable
+                0x000000000010beaa                stalloc_init
+                0x000000000010bf2c                stalloc
+ .text          0x000000000010c062       0x8b kernel/klock.x86_64.o
+                0x000000000010c062                klock_init
+                0x000000000010c084                klock_lock
+                0x000000000010c0b7                klock_open
+ .text          0x000000000010c0ed      0x570 lib/libc.x86_64.o
+                0x000000000010c0ed                kwrite
+                0x000000000010c12c                kread
+                0x000000000010c192                stringcmp
+                0x000000000010c20f                stringcopy
+                0x000000000010c290                memcopy
+                0x000000000010c39c                memoryset
+                0x000000000010c3e3                atoi
+                0x000000000010c501                strlen
+                0x000000000010c532                swap16
+                0x000000000010c555                swap32
+                0x000000000010c5b8                from_big_endian16
+                0x000000000010c5da                from_big_endian32
+                0x000000000010c5f8                to_big_endian16
+                0x000000000010c61a                to_big_endian32
+                0x000000000010c638                wordpad
+ .text          0x000000000010c65d      0xca9 lib/xprintf.x86_64.o
+                0x000000000010c65d                kvprintf
+                0x000000000010c6eb                kprintf
+                0x000000000010c801                vsnprintf
+                0x000000000010c83e                snprintf
+ .text          0x000000000010d306      0x33b lib/bitmap.x86_64.o
+                0x000000000010d306                bitmap_sizeof
+                0x000000000010d327                bitmap_init
+                0x000000000010d3a1                bitmap_get
+                0x000000000010d421                bitmap_set
+                0x000000000010d532                bitmap_findnset
+ .text          0x000000000010d641       0xc4 lib/debug.x86_64.o
+                0x000000000010d641                DEBUG
+ .text          0x000000000010d705      0x354 drivers/bootargs.x86_64.o
+                0x000000000010d757                bootargs_init
+                0x000000000010d989                bootargs_get
+ .text          0x000000000010da59       0x59 drivers/disksched.x86_64.o
+                0x000000000010da59                disksched_schedule
+ .text          0x000000000010dab2       0x3f drivers/timer.x86_64.o
+                0x000000000010dab2                timer_set_ticks
+ .text          0x000000000010daf1       0xbf drivers/modules.x86_64.o
+                0x000000000010daf1                modules_init
+ .text          0x000000000010dbb0      0x47e proc/elf.x86_64.o
+                0x000000000010dbb0                elf_parse_header
+ .text          0x000000000010e02e       0xe2 proc/syscall.x86_64.o
+                0x000000000010e02e                syscall_entry
+ .text          0x000000000010e110      0x711 proc/process.x86_64.o
+                0x000000000010e110                setup_new_process
+                0x000000000010e5f3                process_start
+                0x000000000010e69d                process_write
+                0x000000000010e748                process_read
+ .text          0x000000000010e821      0x36d proc/fdt.x86_64.o
+                0x000000000010e821                fdt_init
+                0x000000000010e926                fdt_alloc
+                0x000000000010e9ca                fdt_open
+                0x000000000010eae4                fdt_read
+                0x000000000010eb39                fdt_write
+ .text          0x000000000010eb8e     0x1c58 fs/vfs.x86_64.o
+                0x000000000010eb8e                vfs_init
+                0x000000000010ed21                vfs_deinit
+                0x000000000010efaa                vfs_mount_fs
+                0x000000000010f0d9                vfs_mount_all
+                0x000000000010f45c                vfs_mount
+                0x000000000010f6c6                vfs_unmount
+                0x000000000010f90a                vfs_open
+                0x000000000010fc73                vfs_close
+                0x000000000010fd5d                vfs_seek
+                0x000000000010fe33                vfs_read
+                0x000000000010ff55                vfs_write
+                0x0000000000110077                vfs_create
+                0x00000000001101b5                vfs_remove
+                0x00000000001102e0                vfs_getfree
+                0x00000000001103c7                vfs_filecount
+                0x0000000000110590                vfs_file
+ .text          0x00000000001107e6     0x1c02 fs/tfs.x86_64.o
+                0x00000000001107e6                tfs_init
+                0x0000000000110b19                tfs_unmount
+                0x0000000000110b65                tfs_open
+                0x0000000000110cf2                tfs_close
+                0x0000000000110d08                tfs_create
+                0x0000000000111329                tfs_remove
+                0x0000000000111742                tfs_read
+                0x0000000000111b22                tfs_write
+                0x0000000000112031                tfs_getfree
+                0x000000000011212e                tfs_filecount
+                0x000000000011224d                tfs_file
+ .text          0x00000000001123e8      0x4cb fs/filesystems.x86_64.o
+                0x00000000001123e8                get_partition
+                0x0000000000112507                read_extended_partition_table
+                0x0000000000112690                filesystems_try_all
+ .text          0x00000000001128b3       0x78 lib/gcc/divdi3.x86_64.o
+                0x00000000001128b3                __divdi3
+ .text          0x000000000011292b      0x7e1 lib/gcc/qdivrem.x86_64.o
+                0x000000000011292b                __qdivrem
+ .text          0x000000000011310c       0x31 lib/gcc/udivdi3.x86_64.o
+                0x000000000011310c                __udivdi3
+ .text          0x000000000011313d       0x34 lib/gcc/umoddi3.x86_64.o
+                0x000000000011313d                __umoddi3
+ *(.rodata*)
+ *fill*         0x0000000000113171        0x7 
+ .rodata        0x0000000000113178      0x3ab init/x86_64/main.x86_64.o
+ *fill*         0x0000000000113523        0x5 
+ .rodata        0x0000000000113528      0x2b0 kernel/x86_64/interrupt.x86_64.o
+ .rodata        0x00000000001137d8       0x61 kernel/x86_64/stubs.x86_64.o
+ *fill*         0x0000000000113839        0x7 
+ .rodata        0x0000000000113840       0x76 vm/x86_64/mm_phys.x86_64.o
+ *fill*         0x00000000001138b6        0x2 
+ .rodata        0x00000000001138b8       0xa1 vm/x86_64/mm_virt.x86_64.o
+ *fill*         0x0000000000113959        0x7 
+ .rodata        0x0000000000113960       0x41 drivers/x86_64/tty.x86_64.o
+ *fill*         0x00000000001139a1       0x1f 
+ .rodata        0x00000000001139c0      0x208 drivers/x86_64/keyboard.x86_64.o
+ .rodata        0x0000000000113bc8       0x17 drivers/x86_64/disk.x86_64.o
+ *fill*         0x0000000000113bdf        0x1 
+ .rodata        0x0000000000113be0      0x34b drivers/x86_64/pci.x86_64.o
+ *fill*         0x0000000000113f2b        0x5 
+ .rodata        0x0000000000113f30      0x185 init/common.x86_64.o
+ *fill*         0x00000000001140b5        0x3 
+ .rodata        0x00000000001140b8       0x26 kernel/panic.x86_64.o
+ *fill*         0x00000000001140de        0x2 
+ .rodata        0x00000000001140e0       0x7a kernel/thread.x86_64.o
+ .rodata        0x000000000011415a       0x24 kernel/scheduler.x86_64.o
+ .rodata        0x000000000011417e       0x21 kernel/sleepq.x86_64.o
+ .rodata        0x000000000011419f       0x24 kernel/semaphore.x86_64.o
+ *fill*         0x00000000001141c3        0x5 
+ .rodata        0x00000000001141c8       0x58 kernel/halt.x86_64.o
+ .rodata        0x0000000000114220       0xa8 kernel/stalloc.x86_64.o
+ *fill*         0x00000000001142c8       0x18 
+ .rodata        0x00000000001142e0      0x200 lib/xprintf.x86_64.o
+ .rodata        0x00000000001144e0       0x3a lib/bitmap.x86_64.o
+ .rodata        0x000000000011451a        0x1 drivers/bootargs.x86_64.o
+ *fill*         0x000000000011451b        0x5 
+ .rodata        0x0000000000114520       0x59 drivers/modules.x86_64.o
+ .rodata        0x0000000000114579       0x26 proc/syscall.x86_64.o
+ .rodata        0x000000000011459f       0x20 proc/process.x86_64.o
+ *fill*         0x00000000001145bf        0x1 
+ .rodata        0x00000000001145c0      0x2f5 fs/vfs.x86_64.o
+ *fill*         0x00000000001148b5        0x3 
+ .rodata        0x00000000001148b8       0xd8 fs/tfs.x86_64.o
+ .rodata        0x0000000000114990       0xa8 fs/filesystems.x86_64.o
+                0x0000000000115000                . = ALIGN (0x1000)
+ *fill*         0x0000000000114a38      0x5c8 
+                0x0000000000115000                __modules_start = .
+
+.rela.dyn       0x0000000000115000        0x0
+ .rela.text     0x0000000000115000        0x0 init/x86_64/_boot.x86_64.o
+
+modules_ptr     0x0000000000115000       0x40
+ *(modules_ptr)
+ modules_ptr    0x0000000000115000       0x20 drivers/x86_64/disk.x86_64.o
+ modules_ptr    0x0000000000115020       0x20 drivers/x86_64/pci.x86_64.o
+                0x0000000000115040                __modules_end = .
+
+real_modules_ptr
+                0x0000000000115040       0x18
+ *(real_modules_ptr)
+ real_modules_ptr
+                0x0000000000115040       0x10 drivers/x86_64/disk.x86_64.o
+ real_modules_ptr
+                0x0000000000115050        0x8 drivers/x86_64/pci.x86_64.o
+
+.data           0x0000000000115060      0xfa0
+                0x0000000000115060                data = .
+ *(.data*)
+ .data          0x0000000000115060        0x0 init/x86_64/_boot.x86_64.o
+ .data          0x0000000000115060        0x0 kernel/x86_64/_irq.x86_64.o
+ .data          0x0000000000115060        0x0 kernel/x86_64/spinlock.x86_64.o
+ .data          0x0000000000115060        0x0 lib/x86_64/_asm.x86_64.o
+ .data          0x0000000000115060        0x0 drivers/x86_64/_timer.x86_64.o
+ .data          0x0000000000115060        0x0 drivers/x86_64/_kb.x86_64.o
+ .data          0x0000000000115060        0x0 drivers/x86_64/_disk.x86_64.o
+ .data          0x0000000000115060        0x0 proc/x86_64/_sys.x86_64.o
+ .data          0x0000000000115060        0x0 init/x86_64/main.x86_64.o
+ .data          0x0000000000115060        0x0 kernel/x86_64/_spinlock.x86_64.o
+ .data          0x0000000000115060        0x0 kernel/x86_64/cswitch.x86_64.o
+ .data          0x0000000000115060        0x8 kernel/x86_64/interrupt.x86_64.o
+                0x0000000000115060                init_stack
+ .data          0x0000000000115068        0x0 kernel/x86_64/stubs.x86_64.o
+ .data          0x0000000000115068        0x0 kernel/x86_64/gdt.x86_64.o
+ .data          0x0000000000115068        0x0 kernel/x86_64/idt.x86_64.o
+ .data          0x0000000000115068        0x0 kernel/x86_64/exception.x86_64.o
+ .data          0x0000000000115068        0x0 kernel/x86_64/pic.x86_64.o
+ .data          0x0000000000115068        0x0 kernel/x86_64/tss.x86_64.o
+ .data          0x0000000000115068        0x0 vm/x86_64/mm_phys.x86_64.o
+ .data          0x0000000000115068        0x0 vm/x86_64/mm_virt.x86_64.o
+ .data          0x0000000000115068        0x0 lib/x86_64/asm.x86_64.o
+ .data          0x0000000000115068        0x4 lib/x86_64/srand.x86_64.o
+ .data          0x000000000011506c        0x0 drivers/x86_64/polltty.x86_64.o
+ .data          0x000000000011506c        0x0 drivers/x86_64/tty.x86_64.o
+ .data          0x000000000011506c        0x0 drivers/x86_64/device.x86_64.o
+ .data          0x000000000011506c        0x0 drivers/x86_64/pit.x86_64.o
+ .data          0x000000000011506c        0x0 drivers/x86_64/keyboard.x86_64.o
+ .data          0x000000000011506c        0x0 drivers/x86_64/disk.x86_64.o
+ .data          0x000000000011506c        0x0 drivers/x86_64/metadev.x86_64.o
+ *fill*         0x000000000011506c       0x14 
+ .data          0x0000000000115080      0x3e0 drivers/x86_64/pci.x86_64.o
+ .data          0x0000000000115460        0x0 proc/x86_64/_syscall.x86_64.o
+ .data          0x0000000000115460        0x0 proc/x86_64/_proc.x86_64.o
+ .data          0x0000000000115460        0x0 init/common.x86_64.o
+ .data          0x0000000000115460        0x0 kernel/panic.x86_64.o
+ .data          0x0000000000115460        0x0 kernel/thread.x86_64.o
+ .data          0x0000000000115460        0x8 kernel/scheduler.x86_64.o
+ .data          0x0000000000115468        0x0 kernel/sleepq.x86_64.o
+ .data          0x0000000000115468        0x0 kernel/semaphore.x86_64.o
+ .data          0x0000000000115468        0x0 kernel/halt.x86_64.o
+ .data          0x0000000000115468        0x0 kernel/stalloc.x86_64.o
+ .data          0x0000000000115468        0x0 kernel/klock.x86_64.o
+ .data          0x0000000000115468        0x0 lib/libc.x86_64.o
+ .data          0x0000000000115468        0x0 lib/xprintf.x86_64.o
+ .data          0x0000000000115468        0x0 lib/bitmap.x86_64.o
+ .data          0x0000000000115468        0x0 lib/debug.x86_64.o
+ .data          0x0000000000115468        0x0 drivers/bootargs.x86_64.o
+ .data          0x0000000000115468        0x0 drivers/disksched.x86_64.o
+ .data          0x0000000000115468        0x0 drivers/timer.x86_64.o
+ .data          0x0000000000115468        0x0 drivers/modules.x86_64.o
+ .data          0x0000000000115468        0x0 proc/elf.x86_64.o
+ .data          0x0000000000115468        0x0 proc/syscall.x86_64.o
+ .data          0x0000000000115468        0x0 proc/process.x86_64.o
+ .data          0x0000000000115468        0x0 proc/fdt.x86_64.o
+ .data          0x0000000000115468        0x0 fs/vfs.x86_64.o
+ .data          0x0000000000115468        0x0 fs/tfs.x86_64.o
+ *fill*         0x0000000000115468       0x18 
+ .data          0x0000000000115480       0x20 fs/filesystems.x86_64.o
+ .data          0x00000000001154a0        0x0 lib/gcc/divdi3.x86_64.o
+ .data          0x00000000001154a0        0x4 lib/gcc/qdivrem.x86_64.o
+ .data          0x00000000001154a4        0x0 lib/gcc/udivdi3.x86_64.o
+ .data          0x00000000001154a4        0x0 lib/gcc/umoddi3.x86_64.o
+                [!provide]                        PROVIDE (kernel_symbols_start, .)
+                [!provide]                        PROVIDE (kernel_symbols_end, .)
+                0x0000000000116000                . = ALIGN (0x1000)
+ *fill*         0x00000000001154a4      0xb5c 
+
+.bss            0x0000000000116000   0x468904
+                0x0000000000116000                bss = .
+ *(.bss*)
+ .bss           0x0000000000116000        0x0 init/x86_64/_boot.x86_64.o
+ .bss           0x0000000000116000        0x0 kernel/x86_64/_irq.x86_64.o
+ .bss           0x0000000000116000        0x0 kernel/x86_64/spinlock.x86_64.o
+ .bss           0x0000000000116000        0x0 lib/x86_64/_asm.x86_64.o
+ .bss           0x0000000000116000        0x0 drivers/x86_64/_timer.x86_64.o
+ .bss           0x0000000000116000        0x0 drivers/x86_64/_kb.x86_64.o
+ .bss           0x0000000000116000        0x0 drivers/x86_64/_disk.x86_64.o
+ .bss           0x0000000000116000        0x0 proc/x86_64/_sys.x86_64.o
+ .bss           0x0000000000116000        0x0 init/x86_64/main.x86_64.o
+ .bss           0x0000000000116000        0x0 kernel/x86_64/_spinlock.x86_64.o
+ .bss           0x0000000000116000        0x0 kernel/x86_64/cswitch.x86_64.o
+ .bss           0x0000000000116000        0x0 kernel/x86_64/interrupt.x86_64.o
+ .bss           0x0000000000116000        0x0 kernel/x86_64/stubs.x86_64.o
+ .bss           0x0000000000116000       0x90 kernel/x86_64/gdt.x86_64.o
+ *fill*         0x0000000000116090       0x10 
+ .bss           0x00000000001160a0      0xffa kernel/x86_64/idt.x86_64.o
+ .bss           0x000000000011709a        0x0 kernel/x86_64/exception.x86_64.o
+ .bss           0x000000000011709a        0x0 kernel/x86_64/pic.x86_64.o
+ .bss           0x000000000011709a        0x0 kernel/x86_64/tss.x86_64.o
+ .bss           0x000000000011709a        0x0 vm/x86_64/mm_phys.x86_64.o
+ *fill*         0x000000000011709a        0x6 
+ .bss           0x00000000001170a0        0xc vm/x86_64/mm_virt.x86_64.o
+ .bss           0x00000000001170ac        0x0 lib/x86_64/asm.x86_64.o
+ .bss           0x00000000001170ac        0x0 lib/x86_64/srand.x86_64.o
+ .bss           0x00000000001170ac        0x0 drivers/x86_64/polltty.x86_64.o
+ .bss           0x00000000001170ac        0x0 drivers/x86_64/tty.x86_64.o
+ *fill*         0x00000000001170ac       0x14 
+ .bss           0x00000000001170c0      0x404 drivers/x86_64/device.x86_64.o
+ .bss           0x00000000001174c4        0x4 drivers/x86_64/pit.x86_64.o
+                0x00000000001174c4                pit_counter
+ .bss           0x00000000001174c8        0x6 drivers/x86_64/keyboard.x86_64.o
+                0x00000000001174c8                kb_shift
+                0x00000000001174c9                kb_alt
+                0x00000000001174ca                kb_ctrl
+                0x00000000001174cb                kb_numlock
+                0x00000000001174cc                kb_capslock
+                0x00000000001174cd                kb_scrolllock
+ .bss           0x00000000001174ce        0x0 drivers/x86_64/disk.x86_64.o
+ .bss           0x00000000001174ce        0x0 drivers/x86_64/metadev.x86_64.o
+ .bss           0x00000000001174ce        0x0 drivers/x86_64/pci.x86_64.o
+ .bss           0x00000000001174ce        0x0 proc/x86_64/_syscall.x86_64.o
+ .bss           0x00000000001174ce        0x0 proc/x86_64/_proc.x86_64.o
+ .bss           0x00000000001174ce        0x0 init/common.x86_64.o
+ .bss           0x00000000001174ce        0x0 kernel/panic.x86_64.o
+ *fill*         0x00000000001174ce        0x2 
+ .bss           0x00000000001174d0        0x4 kernel/thread.x86_64.o
+ .bss           0x00000000001174d4        0x0 kernel/scheduler.x86_64.o
+ *fill*         0x00000000001174d4        0xc 
+ .bss           0x00000000001174e0      0x21c kernel/sleepq.x86_64.o
+ *fill*         0x00000000001176fc        0x4 
+ .bss           0x0000000000117700      0x608 kernel/semaphore.x86_64.o
+ .bss           0x0000000000117d08        0x0 kernel/halt.x86_64.o
+ .bss           0x0000000000117d08        0x8 kernel/stalloc.x86_64.o
+ .bss           0x0000000000117d10        0x0 kernel/klock.x86_64.o
+ .bss           0x0000000000117d10        0x0 lib/libc.x86_64.o
+ .bss           0x0000000000117d10        0x4 lib/xprintf.x86_64.o
+                0x0000000000117d10                kprintf_slock
+ .bss           0x0000000000117d14        0x0 lib/bitmap.x86_64.o
+ .bss           0x0000000000117d14        0x0 lib/debug.x86_64.o
+ *fill*         0x0000000000117d14        0xc 
+ .bss           0x0000000000117d20      0x200 drivers/bootargs.x86_64.o
+ .bss           0x0000000000117f20        0x0 drivers/disksched.x86_64.o
+ .bss           0x0000000000117f20        0x0 drivers/timer.x86_64.o
+ .bss           0x0000000000117f20        0x0 drivers/modules.x86_64.o
+ .bss           0x0000000000117f20        0x0 proc/elf.x86_64.o
+ .bss           0x0000000000117f20        0x0 proc/syscall.x86_64.o
+ .bss           0x0000000000117f20        0x0 proc/process.x86_64.o
+ .bss           0x0000000000117f20        0x0 proc/fdt.x86_64.o
+ .bss           0x0000000000117f20     0x2100 fs/vfs.x86_64.o
+ .bss           0x000000000011a020        0x0 fs/tfs.x86_64.o
+ .bss           0x000000000011a020        0x0 fs/filesystems.x86_64.o
+ .bss           0x000000000011a020        0x0 lib/gcc/divdi3.x86_64.o
+ .bss           0x000000000011a020        0x0 lib/gcc/qdivrem.x86_64.o
+ .bss           0x000000000011a020        0x0 lib/gcc/udivdi3.x86_64.o
+ .bss           0x000000000011a020        0x0 lib/gcc/umoddi3.x86_64.o
+                0x000000000011b000                . = ALIGN (0x1000)
+ *fill*         0x000000000011a020      0xfe0 
+ COMMON         0x000000000011b000      0x1c0 kernel/x86_64/tss.x86_64.o
+                0x000000000011b000                tss_descriptors
+ COMMON         0x000000000011b1c0       0x38 vm/x86_64/mm_phys.x86_64.o
+                0x000000000011b1c0                used_blocks
+                0x000000000011b1c8                _mem_bitmap
+                0x000000000011b1d0                total_blocks
+                0x000000000011b1d8                highest_page
+                0x000000000011b1e0                memory_size
+                0x000000000011b1e8                bitmap_size
+                0x000000000011b1f0                physmem_lock
+ *fill*         0x000000000011b1f8      0xe08 
+ COMMON         0x000000000011c000   0x401080 vm/x86_64/mm_virt.x86_64.o
+                0x000000000011c000                kmalloc_addr
+                0x000000000011d000                pt_pool
+                0x000000000051d000                pt_bitmap
+ COMMON         0x000000000051d080       0x18 drivers/x86_64/polltty.x86_64.o
+                0x000000000051d080                polltty_gcd
+                0x000000000051d088                tty_dev
+                0x000000000051d090                polltty_iobase
+ COMMON         0x000000000051d098        0x4 drivers/x86_64/keyboard.x86_64.o
+                0x000000000051d098                kb_code
+ *fill*         0x000000000051d09c        0x4 
+ COMMON         0x000000000051d0a0      0x220 drivers/x86_64/disk.x86_64.o
+                0x000000000051d0a0                ide_devices
+                0x000000000051d140                ide_gbd
+                0x000000000051d1e0                ide_channels
+                0x000000000051d240                ide_dev
+ COMMON         0x000000000051d2c0    0x20820 kernel/thread.x86_64.o
+                0x000000000051d2c0                thread_table
+                0x000000000051dac0                thread_table_klock
+                0x000000000051dae0                thread_stack_areas
+ COMMON         0x000000000053dae0       0x10 kernel/scheduler.x86_64.o
+                0x000000000053dae0                scheduler_current_thread
+ COMMON         0x000000000053daf0        0x8 kernel/stalloc.x86_64.o
+                0x000000000053daf0                stalloced_total
+ *fill*         0x000000000053daf8        0x8 
+ COMMON         0x000000000053db00      0x600 proc/process.x86_64.o
+                0x000000000053db00                process_table
+ COMMON         0x000000000053e100    0x40804 proc/fdt.x86_64.o
+                0x000000000053e100                fdts
+                0x000000000057e900                fdt_lock
+                0x000000000057e904                KERNEL_ENDS_HERE = .
+
+/DISCARD/
+ *(.comment)
+ *(.eh_frame)
+ *(.note.gnu.build-id)
+LOAD init/x86_64/_boot.x86_64.o
+LOAD kernel/x86_64/_irq.x86_64.o
+LOAD kernel/x86_64/spinlock.x86_64.o
+LOAD lib/x86_64/_asm.x86_64.o
+LOAD drivers/x86_64/_timer.x86_64.o
+LOAD drivers/x86_64/_kb.x86_64.o
+LOAD drivers/x86_64/_disk.x86_64.o
+LOAD proc/x86_64/_sys.x86_64.o
+LOAD init/x86_64/main.x86_64.o
+LOAD kernel/x86_64/_spinlock.x86_64.o
+LOAD kernel/x86_64/cswitch.x86_64.o
+LOAD kernel/x86_64/interrupt.x86_64.o
+LOAD kernel/x86_64/stubs.x86_64.o
+LOAD kernel/x86_64/gdt.x86_64.o
+LOAD kernel/x86_64/idt.x86_64.o
+LOAD kernel/x86_64/exception.x86_64.o
+LOAD kernel/x86_64/pic.x86_64.o
+LOAD kernel/x86_64/tss.x86_64.o
+LOAD vm/x86_64/mm_phys.x86_64.o
+LOAD vm/x86_64/mm_virt.x86_64.o
+LOAD lib/x86_64/asm.x86_64.o
+LOAD lib/x86_64/srand.x86_64.o
+LOAD drivers/x86_64/polltty.x86_64.o
+LOAD drivers/x86_64/tty.x86_64.o
+LOAD drivers/x86_64/device.x86_64.o
+LOAD drivers/x86_64/pit.x86_64.o
+LOAD drivers/x86_64/keyboard.x86_64.o
+LOAD drivers/x86_64/disk.x86_64.o
+LOAD drivers/x86_64/metadev.x86_64.o
+LOAD drivers/x86_64/pci.x86_64.o
+LOAD proc/x86_64/_syscall.x86_64.o
+LOAD proc/x86_64/_proc.x86_64.o
+LOAD init/common.x86_64.o
+LOAD kernel/panic.x86_64.o
+LOAD kernel/thread.x86_64.o
+LOAD kernel/scheduler.x86_64.o
+LOAD kernel/sleepq.x86_64.o
+LOAD kernel/semaphore.x86_64.o
+LOAD kernel/halt.x86_64.o
+LOAD kernel/stalloc.x86_64.o
+LOAD kernel/klock.x86_64.o
+LOAD lib/libc.x86_64.o
+LOAD lib/xprintf.x86_64.o
+LOAD lib/bitmap.x86_64.o
+LOAD lib/debug.x86_64.o
+LOAD drivers/bootargs.x86_64.o
+LOAD drivers/disksched.x86_64.o
+LOAD drivers/timer.x86_64.o
+LOAD drivers/modules.x86_64.o
+LOAD proc/elf.x86_64.o
+LOAD proc/syscall.x86_64.o
+LOAD proc/process.x86_64.o
+LOAD proc/fdt.x86_64.o
+LOAD fs/vfs.x86_64.o
+LOAD fs/tfs.x86_64.o
+LOAD fs/filesystems.x86_64.o
+LOAD lib/gcc/divdi3.x86_64.o
+LOAD lib/gcc/qdivrem.x86_64.o
+LOAD lib/gcc/udivdi3.x86_64.o
+LOAD lib/gcc/umoddi3.x86_64.o
+OUTPUT(kudos-x86_64 elf64-x86-64)
+
+.debug_info     0x0000000000000000     0xe6ec
+ .debug_info    0x0000000000000000      0x6ce init/x86_64/main.x86_64.o
+ .debug_info    0x00000000000006ce       0x9a kernel/x86_64/_spinlock.x86_64.o
+ .debug_info    0x0000000000000768      0x4fb kernel/x86_64/cswitch.x86_64.o
+ .debug_info    0x0000000000000c63      0x689 kernel/x86_64/interrupt.x86_64.o
+ .debug_info    0x00000000000012ec       0xe9 kernel/x86_64/stubs.x86_64.o
+ .debug_info    0x00000000000013d5      0x334 kernel/x86_64/gdt.x86_64.o
+ .debug_info    0x0000000000001709      0x237 kernel/x86_64/idt.x86_64.o
+ .debug_info    0x0000000000001940      0x1bd kernel/x86_64/exception.x86_64.o
+ .debug_info    0x0000000000001afd      0x379 kernel/x86_64/pic.x86_64.o
+ .debug_info    0x0000000000001e76      0x2a5 kernel/x86_64/tss.x86_64.o
+ .debug_info    0x000000000000211b      0xa0d vm/x86_64/mm_phys.x86_64.o
+ .debug_info    0x0000000000002b28      0x9bb vm/x86_64/mm_virt.x86_64.o
+ .debug_info    0x00000000000034e3      0x1da lib/x86_64/asm.x86_64.o
+ .debug_info    0x00000000000036bd       0x8f lib/x86_64/srand.x86_64.o
+ .debug_info    0x000000000000374c      0x33e drivers/x86_64/polltty.x86_64.o
+ .debug_info    0x0000000000003a8a      0x60c drivers/x86_64/tty.x86_64.o
+ .debug_info    0x0000000000004096      0x31e drivers/x86_64/device.x86_64.o
+ .debug_info    0x00000000000043b4      0x38b drivers/x86_64/pit.x86_64.o
+ .debug_info    0x000000000000473f      0x49a drivers/x86_64/keyboard.x86_64.o
+ .debug_info    0x0000000000004bd9      0xf7a drivers/x86_64/disk.x86_64.o
+ .debug_info    0x0000000000005b53       0xc0 drivers/x86_64/metadev.x86_64.o
+ .debug_info    0x0000000000005c13      0x6a1 drivers/x86_64/pci.x86_64.o
+ .debug_info    0x00000000000062b4      0x2df proc/x86_64/_syscall.x86_64.o
+ .debug_info    0x0000000000006593      0x1ec proc/x86_64/_proc.x86_64.o
+ .debug_info    0x000000000000677f      0x3f6 init/common.x86_64.o
+ .debug_info    0x0000000000006b75      0x13e kernel/panic.x86_64.o
+ .debug_info    0x0000000000006cb3      0x757 kernel/thread.x86_64.o
+ .debug_info    0x000000000000740a      0x513 kernel/scheduler.x86_64.o
+ .debug_info    0x000000000000791d      0x599 kernel/sleepq.x86_64.o
+ .debug_info    0x0000000000007eb6      0x3c8 kernel/semaphore.x86_64.o
+ .debug_info    0x000000000000827e       0xf5 kernel/halt.x86_64.o
+ .debug_info    0x0000000000008373      0x16e kernel/stalloc.x86_64.o
+ .debug_info    0x00000000000084e1      0x1c4 kernel/klock.x86_64.o
+ .debug_info    0x00000000000086a5      0x581 lib/libc.x86_64.o
+ .debug_info    0x0000000000008c26      0x6f5 lib/xprintf.x86_64.o
+ .debug_info    0x000000000000931b      0x2ae lib/bitmap.x86_64.o
+ .debug_info    0x00000000000095c9      0x12c lib/debug.x86_64.o
+ .debug_info    0x00000000000096f5      0x25b drivers/bootargs.x86_64.o
+ .debug_info    0x0000000000009950      0x1cf drivers/disksched.x86_64.o
+ .debug_info    0x0000000000009b1f      0x105 drivers/timer.x86_64.o
+ .debug_info    0x0000000000009c24      0x1a1 drivers/modules.x86_64.o
+ .debug_info    0x0000000000009dc5      0x528 proc/elf.x86_64.o
+ .debug_info    0x000000000000a2ed      0x164 proc/syscall.x86_64.o
+ .debug_info    0x000000000000a451      0x9b4 proc/process.x86_64.o
+ .debug_info    0x000000000000ae05      0x408 proc/fdt.x86_64.o
+ .debug_info    0x000000000000b20d     0x1516 fs/vfs.x86_64.o
+ .debug_info    0x000000000000c723     0x1176 fs/tfs.x86_64.o
+ .debug_info    0x000000000000d899      0x86c fs/filesystems.x86_64.o
+ .debug_info    0x000000000000e105       0xee lib/gcc/divdi3.x86_64.o
+ .debug_info    0x000000000000e1f3      0x391 lib/gcc/qdivrem.x86_64.o
+ .debug_info    0x000000000000e584       0xae lib/gcc/udivdi3.x86_64.o
+ .debug_info    0x000000000000e632       0xba lib/gcc/umoddi3.x86_64.o
+
+.debug_abbrev   0x0000000000000000     0x3774
+ .debug_abbrev  0x0000000000000000      0x137 init/x86_64/main.x86_64.o
+ .debug_abbrev  0x0000000000000137       0x76 kernel/x86_64/_spinlock.x86_64.o
+ .debug_abbrev  0x00000000000001ad      0x151 kernel/x86_64/cswitch.x86_64.o
+ .debug_abbrev  0x00000000000002fe      0x118 kernel/x86_64/interrupt.x86_64.o
+ .debug_abbrev  0x0000000000000416       0x89 kernel/x86_64/stubs.x86_64.o
+ .debug_abbrev  0x000000000000049f       0xfa kernel/x86_64/gdt.x86_64.o
+ .debug_abbrev  0x0000000000000599       0xf3 kernel/x86_64/idt.x86_64.o
+ .debug_abbrev  0x000000000000068c       0x80 kernel/x86_64/exception.x86_64.o
+ .debug_abbrev  0x000000000000070c       0xdd kernel/x86_64/pic.x86_64.o
+ .debug_abbrev  0x00000000000007e9       0xea kernel/x86_64/tss.x86_64.o
+ .debug_abbrev  0x00000000000008d3      0x1d8 vm/x86_64/mm_phys.x86_64.o
+ .debug_abbrev  0x0000000000000aab      0x209 vm/x86_64/mm_virt.x86_64.o
+ .debug_abbrev  0x0000000000000cb4       0xac lib/x86_64/asm.x86_64.o
+ .debug_abbrev  0x0000000000000d60       0x6f lib/x86_64/srand.x86_64.o
+ .debug_abbrev  0x0000000000000dcf      0x146 drivers/x86_64/polltty.x86_64.o
+ .debug_abbrev  0x0000000000000f15      0x143 drivers/x86_64/tty.x86_64.o
+ .debug_abbrev  0x0000000000001058      0x14a drivers/x86_64/device.x86_64.o
+ .debug_abbrev  0x00000000000011a2      0x161 drivers/x86_64/pit.x86_64.o
+ .debug_abbrev  0x0000000000001303      0x180 drivers/x86_64/keyboard.x86_64.o
+ .debug_abbrev  0x0000000000001483      0x1de drivers/x86_64/disk.x86_64.o
+ .debug_abbrev  0x0000000000001661       0x6f drivers/x86_64/metadev.x86_64.o
+ .debug_abbrev  0x00000000000016d0      0x171 drivers/x86_64/pci.x86_64.o
+ .debug_abbrev  0x0000000000001841       0xe0 proc/x86_64/_syscall.x86_64.o
+ .debug_abbrev  0x0000000000001921       0xd3 proc/x86_64/_proc.x86_64.o
+ .debug_abbrev  0x00000000000019f4      0x123 init/common.x86_64.o
+ .debug_abbrev  0x0000000000001b17       0x87 kernel/panic.x86_64.o
+ .debug_abbrev  0x0000000000001b9e      0x1cf kernel/thread.x86_64.o
+ .debug_abbrev  0x0000000000001d6d      0x16f kernel/scheduler.x86_64.o
+ .debug_abbrev  0x0000000000001edc      0x142 kernel/sleepq.x86_64.o
+ .debug_abbrev  0x000000000000201e       0xfc kernel/semaphore.x86_64.o
+ .debug_abbrev  0x000000000000211a       0x60 kernel/halt.x86_64.o
+ .debug_abbrev  0x000000000000217a       0xf5 kernel/stalloc.x86_64.o
+ .debug_abbrev  0x000000000000226f       0xbf kernel/klock.x86_64.o
+ .debug_abbrev  0x000000000000232e      0x133 lib/libc.x86_64.o
+ .debug_abbrev  0x0000000000002461      0x145 lib/xprintf.x86_64.o
+ .debug_abbrev  0x00000000000025a6       0xd9 lib/bitmap.x86_64.o
+ .debug_abbrev  0x000000000000267f       0xaf lib/debug.x86_64.o
+ .debug_abbrev  0x000000000000272e      0x138 drivers/bootargs.x86_64.o
+ .debug_abbrev  0x0000000000002866       0xd8 drivers/disksched.x86_64.o
+ .debug_abbrev  0x000000000000293e       0x8b drivers/timer.x86_64.o
+ .debug_abbrev  0x00000000000029c9       0xf9 drivers/modules.x86_64.o
+ .debug_abbrev  0x0000000000002ac2       0xfc proc/elf.x86_64.o
+ .debug_abbrev  0x0000000000002bbe       0x8d proc/syscall.x86_64.o
+ .debug_abbrev  0x0000000000002c4b      0x1a5 proc/process.x86_64.o
+ .debug_abbrev  0x0000000000002df0      0x152 proc/fdt.x86_64.o
+ .debug_abbrev  0x0000000000002f42      0x24d fs/vfs.x86_64.o
+ .debug_abbrev  0x000000000000318f      0x1b2 fs/tfs.x86_64.o
+ .debug_abbrev  0x0000000000003341      0x16d fs/filesystems.x86_64.o
+ .debug_abbrev  0x00000000000034ae       0x8d lib/gcc/divdi3.x86_64.o
+ .debug_abbrev  0x000000000000353b      0x12e lib/gcc/qdivrem.x86_64.o
+ .debug_abbrev  0x0000000000003669       0x7e lib/gcc/udivdi3.x86_64.o
+ .debug_abbrev  0x00000000000036e7       0x8d lib/gcc/umoddi3.x86_64.o
+
+.debug_aranges  0x0000000000000000      0x9c0
+ .debug_aranges
+                0x0000000000000000       0x30 init/x86_64/main.x86_64.o
+ .debug_aranges
+                0x0000000000000030       0x30 kernel/x86_64/_spinlock.x86_64.o
+ .debug_aranges
+                0x0000000000000060       0x30 kernel/x86_64/cswitch.x86_64.o
+ .debug_aranges
+                0x0000000000000090       0x30 kernel/x86_64/interrupt.x86_64.o
+ .debug_aranges
+                0x00000000000000c0       0x30 kernel/x86_64/stubs.x86_64.o
+ .debug_aranges
+                0x00000000000000f0       0x30 kernel/x86_64/gdt.x86_64.o
+ .debug_aranges
+                0x0000000000000120       0x30 kernel/x86_64/idt.x86_64.o
+ .debug_aranges
+                0x0000000000000150       0x30 kernel/x86_64/exception.x86_64.o
+ .debug_aranges
+                0x0000000000000180       0x30 kernel/x86_64/pic.x86_64.o
+ .debug_aranges
+                0x00000000000001b0       0x30 kernel/x86_64/tss.x86_64.o
+ .debug_aranges
+                0x00000000000001e0       0x30 vm/x86_64/mm_phys.x86_64.o
+ .debug_aranges
+                0x0000000000000210       0x30 vm/x86_64/mm_virt.x86_64.o
+ .debug_aranges
+                0x0000000000000240       0x30 lib/x86_64/asm.x86_64.o
+ .debug_aranges
+                0x0000000000000270       0x30 lib/x86_64/srand.x86_64.o
+ .debug_aranges
+                0x00000000000002a0       0x30 drivers/x86_64/polltty.x86_64.o
+ .debug_aranges
+                0x00000000000002d0       0x30 drivers/x86_64/tty.x86_64.o
+ .debug_aranges
+                0x0000000000000300       0x30 drivers/x86_64/device.x86_64.o
+ .debug_aranges
+                0x0000000000000330       0x30 drivers/x86_64/pit.x86_64.o
+ .debug_aranges
+                0x0000000000000360       0x30 drivers/x86_64/keyboard.x86_64.o
+ .debug_aranges
+                0x0000000000000390       0x30 drivers/x86_64/disk.x86_64.o
+ .debug_aranges
+                0x00000000000003c0       0x30 drivers/x86_64/metadev.x86_64.o
+ .debug_aranges
+                0x00000000000003f0       0x30 drivers/x86_64/pci.x86_64.o
+ .debug_aranges
+                0x0000000000000420       0x30 proc/x86_64/_syscall.x86_64.o
+ .debug_aranges
+                0x0000000000000450       0x30 proc/x86_64/_proc.x86_64.o
+ .debug_aranges
+                0x0000000000000480       0x30 init/common.x86_64.o
+ .debug_aranges
+                0x00000000000004b0       0x30 kernel/panic.x86_64.o
+ .debug_aranges
+                0x00000000000004e0       0x30 kernel/thread.x86_64.o
+ .debug_aranges
+                0x0000000000000510       0x30 kernel/scheduler.x86_64.o
+ .debug_aranges
+                0x0000000000000540       0x30 kernel/sleepq.x86_64.o
+ .debug_aranges
+                0x0000000000000570       0x30 kernel/semaphore.x86_64.o
+ .debug_aranges
+                0x00000000000005a0       0x30 kernel/halt.x86_64.o
+ .debug_aranges
+                0x00000000000005d0       0x30 kernel/stalloc.x86_64.o
+ .debug_aranges
+                0x0000000000000600       0x30 kernel/klock.x86_64.o
+ .debug_aranges
+                0x0000000000000630       0x30 lib/libc.x86_64.o
+ .debug_aranges
+                0x0000000000000660       0x30 lib/xprintf.x86_64.o
+ .debug_aranges
+                0x0000000000000690       0x30 lib/bitmap.x86_64.o
+ .debug_aranges
+                0x00000000000006c0       0x30 lib/debug.x86_64.o
+ .debug_aranges
+                0x00000000000006f0       0x30 drivers/bootargs.x86_64.o
+ .debug_aranges
+                0x0000000000000720       0x30 drivers/disksched.x86_64.o
+ .debug_aranges
+                0x0000000000000750       0x30 drivers/timer.x86_64.o
+ .debug_aranges
+                0x0000000000000780       0x30 drivers/modules.x86_64.o
+ .debug_aranges
+                0x00000000000007b0       0x30 proc/elf.x86_64.o
+ .debug_aranges
+                0x00000000000007e0       0x30 proc/syscall.x86_64.o
+ .debug_aranges
+                0x0000000000000810       0x30 proc/process.x86_64.o
+ .debug_aranges
+                0x0000000000000840       0x30 proc/fdt.x86_64.o
+ .debug_aranges
+                0x0000000000000870       0x30 fs/vfs.x86_64.o
+ .debug_aranges
+                0x00000000000008a0       0x30 fs/tfs.x86_64.o
+ .debug_aranges
+                0x00000000000008d0       0x30 fs/filesystems.x86_64.o
+ .debug_aranges
+                0x0000000000000900       0x30 lib/gcc/divdi3.x86_64.o
+ .debug_aranges
+                0x0000000000000930       0x30 lib/gcc/qdivrem.x86_64.o
+ .debug_aranges
+                0x0000000000000960       0x30 lib/gcc/udivdi3.x86_64.o
+ .debug_aranges
+                0x0000000000000990       0x30 lib/gcc/umoddi3.x86_64.o
+
+.debug_line     0x0000000000000000     0x43f0
+ .debug_line    0x0000000000000000      0x19d init/x86_64/main.x86_64.o
+ .debug_line    0x000000000000019d       0x67 kernel/x86_64/_spinlock.x86_64.o
+ .debug_line    0x0000000000000204      0x198 kernel/x86_64/cswitch.x86_64.o
+ .debug_line    0x000000000000039c      0x16d kernel/x86_64/interrupt.x86_64.o
+ .debug_line    0x0000000000000509       0x63 kernel/x86_64/stubs.x86_64.o
+ .debug_line    0x000000000000056c       0xd9 kernel/x86_64/gdt.x86_64.o
+ .debug_line    0x0000000000000645       0xad kernel/x86_64/idt.x86_64.o
+ .debug_line    0x00000000000006f2       0xbb kernel/x86_64/exception.x86_64.o
+ .debug_line    0x00000000000007ad      0x112 kernel/x86_64/pic.x86_64.o
+ .debug_line    0x00000000000008bf       0xb5 kernel/x86_64/tss.x86_64.o
+ .debug_line    0x0000000000000974      0x242 vm/x86_64/mm_phys.x86_64.o
+ .debug_line    0x0000000000000bb6      0x1e0 vm/x86_64/mm_virt.x86_64.o
+ .debug_line    0x0000000000000d96       0x75 lib/x86_64/asm.x86_64.o
+ .debug_line    0x0000000000000e0b       0x4c lib/x86_64/srand.x86_64.o
+ .debug_line    0x0000000000000e57       0xee drivers/x86_64/polltty.x86_64.o
+ .debug_line    0x0000000000000f45      0x1cf drivers/x86_64/tty.x86_64.o
+ .debug_line    0x0000000000001114      0x10d drivers/x86_64/device.x86_64.o
+ .debug_line    0x0000000000001221      0x10b drivers/x86_64/pit.x86_64.o
+ .debug_line    0x000000000000132c      0x191 drivers/x86_64/keyboard.x86_64.o
+ .debug_line    0x00000000000014bd      0x389 drivers/x86_64/disk.x86_64.o
+ .debug_line    0x0000000000001846       0x80 drivers/x86_64/metadev.x86_64.o
+ .debug_line    0x00000000000018c6      0x17d drivers/x86_64/pci.x86_64.o
+ .debug_line    0x0000000000001a43       0x97 proc/x86_64/_syscall.x86_64.o
+ .debug_line    0x0000000000001ada       0xcb proc/x86_64/_proc.x86_64.o
+ .debug_line    0x0000000000001ba5      0x15a init/common.x86_64.o
+ .debug_line    0x0000000000001cff       0x8a kernel/panic.x86_64.o
+ .debug_line    0x0000000000001d89      0x221 kernel/thread.x86_64.o
+ .debug_line    0x0000000000001faa      0x1c6 kernel/scheduler.x86_64.o
+ .debug_line    0x0000000000002170      0x1c1 kernel/sleepq.x86_64.o
+ .debug_line    0x0000000000002331      0x152 kernel/semaphore.x86_64.o
+ .debug_line    0x0000000000002483       0x7e kernel/halt.x86_64.o
+ .debug_line    0x0000000000002501       0xa2 kernel/stalloc.x86_64.o
+ .debug_line    0x00000000000025a3       0xb1 kernel/klock.x86_64.o
+ .debug_line    0x0000000000002654      0x1c6 lib/libc.x86_64.o
+ .debug_line    0x000000000000281a      0x297 lib/xprintf.x86_64.o
+ .debug_line    0x0000000000002ab1      0x114 lib/bitmap.x86_64.o
+ .debug_line    0x0000000000002bc5       0xac lib/debug.x86_64.o
+ .debug_line    0x0000000000002c71      0x111 drivers/bootargs.x86_64.o
+ .debug_line    0x0000000000002d82       0xac drivers/disksched.x86_64.o
+ .debug_line    0x0000000000002e2e       0x92 drivers/timer.x86_64.o
+ .debug_line    0x0000000000002ec0       0x90 drivers/modules.x86_64.o
+ .debug_line    0x0000000000002f50      0x153 proc/elf.x86_64.o
+ .debug_line    0x00000000000030a3       0xf0 proc/syscall.x86_64.o
+ .debug_line    0x0000000000003193      0x290 proc/process.x86_64.o
+ .debug_line    0x0000000000003423      0x170 proc/fdt.x86_64.o
+ .debug_line    0x0000000000003593      0x4d3 fs/vfs.x86_64.o
+ .debug_line    0x0000000000003a66      0x4db fs/tfs.x86_64.o
+ .debug_line    0x0000000000003f41      0x1ef fs/filesystems.x86_64.o
+ .debug_line    0x0000000000004130       0x66 lib/gcc/divdi3.x86_64.o
+ .debug_line    0x0000000000004196      0x1a1 lib/gcc/qdivrem.x86_64.o
+ .debug_line    0x0000000000004337       0x5c lib/gcc/udivdi3.x86_64.o
+ .debug_line    0x0000000000004393       0x5d lib/gcc/umoddi3.x86_64.o
+
+.debug_str      0x0000000000000000     0x269e
+ .debug_str     0x0000000000000000      0x424 init/x86_64/main.x86_64.o
+                                        0x496 (size before relaxing)
+ .debug_str     0x0000000000000424       0x45 kernel/x86_64/_spinlock.x86_64.o
+                                        0x110 (size before relaxing)
+ .debug_str     0x0000000000000469      0x207 kernel/x86_64/cswitch.x86_64.o
+                                        0x3b9 (size before relaxing)
+ .debug_str     0x0000000000000670      0x1d4 kernel/x86_64/interrupt.x86_64.o
+                                        0x389 (size before relaxing)
+ .debug_str     0x0000000000000844       0x31 kernel/x86_64/stubs.x86_64.o
+                                        0x18b (size before relaxing)
+ .debug_str     0x0000000000000875      0x12f kernel/x86_64/gdt.x86_64.o
+                                        0x2af (size before relaxing)
+ .debug_str     0x00000000000009a4       0x94 kernel/x86_64/idt.x86_64.o
+                                        0x253 (size before relaxing)
+ .debug_str     0x0000000000000a38       0x1a kernel/x86_64/exception.x86_64.o
+                                        0x186 (size before relaxing)
+ .debug_str     0x0000000000000a52       0x8e kernel/x86_64/pic.x86_64.o
+                                        0x20c (size before relaxing)
+ .debug_str     0x0000000000000ae0       0x98 kernel/x86_64/tss.x86_64.o
+                                        0x25b (size before relaxing)
+ .debug_str     0x0000000000000b78      0x223 vm/x86_64/mm_phys.x86_64.o
+                                        0x5a5 (size before relaxing)
+ .debug_str     0x0000000000000d9b      0x1cb vm/x86_64/mm_virt.x86_64.o
+                                        0x4b3 (size before relaxing)
+ .debug_str     0x0000000000000f66       0x3b lib/x86_64/asm.x86_64.o
+                                        0x197 (size before relaxing)
+ .debug_str     0x0000000000000fa1       0x1d lib/x86_64/srand.x86_64.o
+                                         0xfb (size before relaxing)
+ .debug_str     0x0000000000000fbe       0xd7 drivers/x86_64/polltty.x86_64.o
+                                        0x2a9 (size before relaxing)
+ .debug_str     0x0000000000001095       0x63 drivers/x86_64/tty.x86_64.o
+                                        0x380 (size before relaxing)
+ .debug_str     0x00000000000010f8       0x69 drivers/x86_64/device.x86_64.o
+                                        0x2fa (size before relaxing)
+ .debug_str     0x0000000000001161       0x86 drivers/x86_64/pit.x86_64.o
+                                        0x306 (size before relaxing)
+ .debug_str     0x00000000000011e7      0x12e drivers/x86_64/keyboard.x86_64.o
+                                        0x2df (size before relaxing)
+ .debug_str     0x0000000000001315      0x402 drivers/x86_64/disk.x86_64.o
+                                        0x74b (size before relaxing)
+ .debug_str     0x0000000000001717       0x26 drivers/x86_64/metadev.x86_64.o
+                                        0x18b (size before relaxing)
+ .debug_str     0x000000000000173d       0xc2 drivers/x86_64/pci.x86_64.o
+                                        0x424 (size before relaxing)
+ .debug_str     0x00000000000017ff       0x3e proc/x86_64/_syscall.x86_64.o
+                                        0x24c (size before relaxing)
+ .debug_str     0x000000000000183d       0x4f proc/x86_64/_proc.x86_64.o
+                                        0x262 (size before relaxing)
+ .debug_str     0x000000000000188c       0x7e init/common.x86_64.o
+                                        0x287 (size before relaxing)
+ .debug_str     0x000000000000190a       0x1b kernel/panic.x86_64.o
+                                        0x1c0 (size before relaxing)
+ .debug_str     0x0000000000001925      0x12a kernel/thread.x86_64.o
+                                        0x516 (size before relaxing)
+ .debug_str     0x0000000000001a4f       0x71 kernel/scheduler.x86_64.o
+                                        0x446 (size before relaxing)
+ .debug_str     0x0000000000001ac0       0x79 kernel/sleepq.x86_64.o
+                                        0x41a (size before relaxing)
+ .debug_str     0x0000000000001b39       0x7b kernel/semaphore.x86_64.o
+                                        0x2e0 (size before relaxing)
+ .debug_str     0x0000000000001bb4       0x19 kernel/halt.x86_64.o
+                                        0x18d (size before relaxing)
+ .debug_str     0x0000000000001bcd       0x21 kernel/stalloc.x86_64.o
+                                        0x1e1 (size before relaxing)
+ .debug_str     0x0000000000001bee        0xf kernel/klock.x86_64.o
+                                        0x204 (size before relaxing)
+ .debug_str     0x0000000000001bfd       0xb2 lib/libc.x86_64.o
+                                        0x28b (size before relaxing)
+ .debug_str     0x0000000000001caf       0xbf lib/xprintf.x86_64.o
+                                        0x308 (size before relaxing)
+ .debug_str     0x0000000000001d6e       0x67 lib/bitmap.x86_64.o
+                                        0x1e2 (size before relaxing)
+ .debug_str     0x0000000000001dd5       0x22 lib/debug.x86_64.o
+                                        0x1b1 (size before relaxing)
+ .debug_str     0x0000000000001df7       0x75 drivers/bootargs.x86_64.o
+                                        0x212 (size before relaxing)
+ .debug_str     0x0000000000001e6c       0x2d drivers/disksched.x86_64.o
+                                        0x244 (size before relaxing)
+ .debug_str     0x0000000000001e99       0x21 drivers/timer.x86_64.o
+                                        0x1be (size before relaxing)
+ .debug_str     0x0000000000001eba       0x12 drivers/modules.x86_64.o
+                                        0x21d (size before relaxing)
+ .debug_str     0x0000000000001ecc      0x1c0 proc/elf.x86_64.o
+                                        0x373 (size before relaxing)
+ .debug_str     0x000000000000208c       0x4f proc/syscall.x86_64.o
+                                        0x1dc (size before relaxing)
+ .debug_str     0x00000000000020db       0xbb proc/process.x86_64.o
+                                        0x587 (size before relaxing)
+ .debug_str     0x0000000000002196       0x83 proc/fdt.x86_64.o
+                                        0x283 (size before relaxing)
+ .debug_str     0x0000000000002219      0x1b9 fs/vfs.x86_64.o
+                                        0x596 (size before relaxing)
+ .debug_str     0x00000000000023d2       0xf4 fs/tfs.x86_64.o
+                                        0x54d (size before relaxing)
+ .debug_str     0x00000000000024c6      0x124 fs/filesystems.x86_64.o
+                                        0x4d4 (size before relaxing)
+ .debug_str     0x00000000000025ea       0x2d lib/gcc/divdi3.x86_64.o
+                                        0x134 (size before relaxing)
+ .debug_str     0x0000000000002617       0x4f lib/gcc/qdivrem.x86_64.o
+                                        0x17c (size before relaxing)
+ .debug_str     0x0000000000002666       0x1c lib/gcc/udivdi3.x86_64.o
+                                        0x12f (size before relaxing)
+ .debug_str     0x0000000000002682       0x1c lib/gcc/umoddi3.x86_64.o
+                                        0x12f (size before relaxing)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 init/x86_64/main.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/x86_64/_spinlock.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/x86_64/cswitch.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/x86_64/interrupt.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/x86_64/stubs.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/x86_64/gdt.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/x86_64/idt.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/x86_64/exception.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/x86_64/pic.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/x86_64/tss.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 vm/x86_64/mm_phys.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 vm/x86_64/mm_virt.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/x86_64/asm.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/x86_64/srand.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/x86_64/polltty.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/x86_64/tty.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/x86_64/device.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/x86_64/pit.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/x86_64/keyboard.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/x86_64/disk.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/x86_64/metadev.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/x86_64/pci.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 proc/x86_64/_syscall.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 proc/x86_64/_proc.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 init/common.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/panic.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/thread.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/scheduler.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/sleepq.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/semaphore.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/halt.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/stalloc.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 kernel/klock.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/libc.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/xprintf.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/bitmap.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/debug.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/bootargs.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/disksched.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/timer.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/modules.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 proc/elf.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 proc/syscall.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 proc/process.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 proc/fdt.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fs/vfs.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fs/tfs.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fs/filesystems.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/gcc/divdi3.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/gcc/qdivrem.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/gcc/udivdi3.x86_64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/gcc/umoddi3.x86_64.o
+
+.debug_ranges   0x0000000000000000       0xc0
+ .debug_ranges  0x0000000000000000       0x60 drivers/x86_64/tty.x86_64.o
+ .debug_ranges  0x0000000000000060       0x60 fs/filesystems.x86_64.o
