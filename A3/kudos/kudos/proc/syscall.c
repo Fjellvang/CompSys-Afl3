@@ -33,19 +33,14 @@ uintptr_t syscall_entry(uintptr_t syscall,
   case SYSCALL_WRITE:
     //kode her. Arg0 = FD, ARG1 = buffer, arg2 = nbytes.
     
-    if((arg0 == FD_STDOUT) || (arg0 == FD_STDERR)){
-      process_write(arg0,(void *)arg1,(size_t)arg2);
-    } else {
+    process_write(arg0,(void *)arg1,(size_t)arg2);
 
 
-    }
     break;
   case SYSCALL_READ:
     //kode her. ARG0 = FD, arg1 = buffer, arb2 = nbytes
+    process_read(arg0,(void *)arg1,(size_t)arg2);
     
-    if((arg0 == FD_STDIN) || (arg0 == FD_STDERR)){
-      process_read(arg0,(void *)arg1,(size_t)arg2);
-    }
     break;
   case SYSCALL_OPEN:
     // ARG0 == Pathname 

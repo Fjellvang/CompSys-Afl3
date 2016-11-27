@@ -144,14 +144,19 @@ void process_start(const char *path)
 
 openfile_t process_open(const char *path){
   //hackey kode.
+  //initialiser process table.
   process_table[0].fd->fdt.init();
   //
   return process_table[0].fd->fdt_open(process_table[0].fd, *path);
 }
 
 void process_write(int fd, void *buf, int nbytes){
-//fjerner lige warnings
-  if(fd == FD_STDOUT || FD_STDERROR) { 
+  if(fd < 0 || fd == FD_STDIN) {
+    //bad fd, print error and return
+    kprintf("Error, illegal FD");
+    return;
+  }
+  else if(fd == FD_STDOUT || FD_STDERROR) { 
     device_t *dev;
     gcd_t *gcd;
    
@@ -168,10 +173,15 @@ void process_write(int fd, void *buf, int nbytes){
 }
 
 void process_read(int fd, void *buf, int nbytes){
-//fjerner lige warnings 
-  
-
-  if(fd == FD_STDIN || FD_STDERROR) { 
+  if(fd < 0 ||
+     fd == FD_STDOUT ||
+     fd == FD_STDERR) {
+    //dårlig FD
+    //print brugervenlig fejlkode
+    kprintf("Error, illegal FD");
+    return; 
+  } 
+  else if(fd == FD_STDIN) { 
     device_t *dev;
     gcd_t *gcd;
     dev = device_get(TYPECODE_TTY, 0);
